@@ -1,0 +1,22 @@
+{
+  "name": "3_2p",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+  "start": "node server.js"
+  },  "keywords": [
+    "Nodejs",
+    "Express",
+    "Materialize",
+    "HTML",
+    "JS",
+    "CSS"
+    ],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
+  
