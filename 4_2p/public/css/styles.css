@@ -1,0 +1,33 @@
+.navbar-size {
+    width: 95%;
+    margin: 0 auto;
+}
+
+nav {
+    background-color: #8f84f2;
+}
+
+.user-image-size {
+    height: 56px;
+    margin: 4px 0;
+}
+
+.main-body {
+    background-color: #849ff2;
+    color: white;
+    /* height: calc(100vh - 32px); */
+}
+
+.materialboxed-image {
+    margin: 0 auto;
+    height: 400px;
+}
+
+.click-me-button {
+    background-color: #849ff2;
+    margin-top: 50px;
+}
+.card-image {
+    background-color: #8486f2b9;
+    color: white;
+}
