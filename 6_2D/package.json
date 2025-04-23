@@ -1,0 +1,29 @@
+{
+  "name": "3_2p",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "mocha --reporter spec"
+  },
+  "keywords": [
+    "Nodejs",
+    "Express",
+    "Materialize",
+    "HTML",
+    "JS",
+    "CSS"
+  ],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "chai": "^5.2.0",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mocha": "^11.1.0",
+    "mongoose": "^8.13.1",
+    "request": "^2.88.2",
+    "save-dev": "^0.0.1-security"
+  }
+}
