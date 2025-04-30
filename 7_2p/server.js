@@ -38,6 +38,10 @@ const route = require("./routes/route");
 app.use("/", route);
 
 // Start server
-app.listen(port, () => {
+// app.listen(port, () => {
+//   console.log(`🚀 App listening at http://localhost:${port}`);
+// });
+
+http.listen(port, () => {
   console.log(`🚀 App listening at http://localhost:${port}`);
 });

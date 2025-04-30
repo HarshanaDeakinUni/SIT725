@@ -98,6 +98,14 @@ const addCards = (items) => {
         $("#card-section").append(itemToAppend)
     });
 }
+
+const socket = io(); // Initialize socket.io client
+
+socket.on('number', (msg) => {
+    console.log('Random number:', msg);
+    document.getElementById('number').innerText = msg;
+});
+
 $(document).ready(function () {
     $('.materialboxed').materialbox();
     $('#formSubmit').click(() => {
